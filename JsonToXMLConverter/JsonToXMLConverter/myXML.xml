@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <node label="name" value="42" />
+  <anothernode>Cool Stuff</anothernode>
+</root>

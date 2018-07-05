@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets
+    xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Keith</Title>
+      <Author>Keith Fleming</Author>
+      <Shortcut>str</Shortcut>
+	  <SnippetTypes>  
+        <SnippetType>Expansion</SnippetType>   
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+	<Declarations>
+		<Literal>
+			<ID>expression</ID>
+			<ToolTip>Generic String</ToolTip>
+			<Default>myString</Default>
+		</Literal>
+		<Literal>
+			<ID>value</ID>
+			<ToolTip>Empty String</ToolTip>
+			<Default>String.Empty</Default>
+		</Literal>
+	</Declarations>
+      <Code Language="csharp">
+        <![CDATA[String $expression$ = $value$;]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
+
+<!-- https://msdn.microsoft.com/en-us/library/ms165394.aspx 
+	https://msdn.microsoft.com/en-us/library/ms165392.aspx 
+	-->
