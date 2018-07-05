@@ -1,0 +1,16 @@
+<Window name="Some Window Name" isDialog="false" isAngular="false">
+	<Control name="BtnOK">
+		<SearchProperty>id="OKBtn"</SearchProperty>
+	</Control>
+	<Control name="TxtUsername">
+		<SearchProperty>css="Text.Username"</SearchProperty>
+    <SearchProperty>name="Text.Username"</SearchProperty>
+	</Control>
+	<Control name="TxtUsername">
+		<SearchProperty>xpath="//div//input[0]"</SearchProperty>
+	</Control>
+  <Control name="LnkForgotPassword">
+    <SearchProperty>class="linkclass"</SearchProperty>
+  </Control>
+
+</Window>
