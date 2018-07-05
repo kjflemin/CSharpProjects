@@ -15,11 +15,11 @@ namespace SimpleDictionaryExample {
 			myDictionary.Add("Julie", "Fleming");
 			myDictionary.Add("Zack", "Fleming");
 
-			Console.WriteLine(myDictionary.Count());
-
 			foreach (var item in myDictionary) {
 				Console.WriteLine(item.Key + "-" + item.Value);
 			}
+
+			Console.WriteLine("There are {0} elements in the Dictionary.", myDictionary.Count);
 
 			myDictionary.Clear();
 
