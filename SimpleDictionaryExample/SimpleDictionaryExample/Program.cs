@@ -21,6 +21,10 @@ namespace SimpleDictionaryExample {
 
 			Console.WriteLine("There are {0} elements in the Dictionary.", myDictionary.Count);
 
+			if (myDictionary.ContainsKey("Keith")) {
+				Console.WriteLine("This dictionary contains Keith");
+			}
+
 			myDictionary.Clear();
 
 			Console.ReadKey();
